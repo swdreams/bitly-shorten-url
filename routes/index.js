@@ -4,7 +4,7 @@ const indexView = 'index';
 const indexTitle = 'Please fill your long URL';
 
 const BitlyClient = require('bitly').BitlyClient;
-const bitly = new BitlyClient('0ecbabe04e0f073979ae988dbe264c5983ce612b', {});
+const bitly = new BitlyClient('0ecbabe04e0f073979aexx8dbe264c5983ce612b', {});
 
 async function getShortUrls(url) {
     let result;
